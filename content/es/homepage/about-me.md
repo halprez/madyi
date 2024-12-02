@@ -1,16 +1,8 @@
 ---
 title: "Acerca de mi"
-weight: 3
+weight: 4
 header_menu: true
 ---
-
-<!--
-Neither embedded figure shortcode, nor Markdown hook were able to render image from asset.
-You would have to .Resouces.GetMatch via custom shortcode.
-![Jane Doe](/images/asset-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg)
--->
-
-### Experiencia profesional
 
 Como psicóloga y coach personal, me dedico a acompañar a personas que, como tú, buscan transformar sus desafíos en oportunidades de crecimiento. Mi enfoque combina una sólida formación en psicología con especializaciones en terapia EMDR, acompañamiento en procesos de duelo y desarrollo personal, permitiéndome ofrecer un apoyo integral y personalizado para cada persona. Mi compromiso es crear un espacio seguro y confidencial donde puedas explorar tus emociones, procesar experiencias difíciles y desarrollar las herramientas necesarias para alcanzar tu mejor versión.
 

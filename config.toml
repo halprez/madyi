@@ -80,14 +80,14 @@ keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
 
 [[params.contacts]]
 label = "telefono"
-value = "636-373-736"
+value = "636-353-736"
 url = "tel:+34636373736"
 icon = "fa fa-phone"
 
 [[params.contacts]]
 label = "email"
-value = "madyilia@msn.com"
-url = "mailto:madyilia@msn.com"
+value = "madgilia@msn.com"
+url = "mailto:madgilia@msn.com"
 icon = "fa fa-envelope"
 
 [[params.contacts]]

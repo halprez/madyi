@@ -27,6 +27,7 @@ body {
     text-align: center;
     color: var(--cover-text-color);
     background-size: cover;
+    font-family: "Lavishly Yours", cursive;
 
     /* Big cover video at the landing area */
     video {
@@ -52,7 +53,7 @@ body {
 
     .blog-title {
         margin: 10px 0 10px 0;
-        font-size: 5rem;
+        /* font-size: 10rem; */
         letter-spacing: -1px;
         text-shadow: var(--cover-title-text-shadow);
     }

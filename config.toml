@@ -91,10 +91,10 @@ url = "mailto:madyilia@msn.com"
 icon = "fa fa-envelope"
 
 [[params.contacts]]
-label = "whatsapp"
+label = "whatsapp-square"
 value = "Madyilia"
 url = "https://wa.me/+34636373736"
-icon = "fa fa-whatsapp"
+icon = "fa fa-square-whatsapp"
 
 # Add additional contacts here!
 # [[params.contacts]]

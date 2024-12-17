@@ -61,6 +61,7 @@ body {
   text-align: center;
   color: var(--cover-text-color);
   background-size: cover;
+  font-family: "Lavishly Yours", cursive;
   /* Big cover video at the landing area */
   /** The arrow button to scroll to content */ }
   #site-head video,
@@ -85,7 +86,7 @@ body {
   #site-head .blog-title,
   #site-head.withCenteredImage .blog-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    /* font-size: 10rem; */
     letter-spacing: -1px;
     text-shadow: var(--cover-title-text-shadow); }
   #site-head .blog-description,
@@ -322,14 +323,22 @@ body {
   text-shadow: none; }
 
 /** =========== Headings =========== */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 10px;
   font-family: "Open Sans", sans-serif; }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 0;
@@ -337,7 +346,7 @@ h3, h4, h5, h6 {
   margin-bottom: 0%; }
 
 h1 {
-  font-size: 5rem;
+  font-size: 10rem;
   line-height: 1.2em;
   letter-spacing: -2px;
   text-indent: -3px; }
@@ -391,9 +400,13 @@ dl {
     margin-left: 200px;
     margin-bottom: 1em; }
 
-ul, ol {
+ul,
+ol {
   margin: 1em 0; }
-  ul ol, ul ul, ol ol, ol ul {
+  ul ol,
+  ul ul,
+  ol ol,
+  ol ul {
     margin: 0.4em 0; }
 
 li {
@@ -438,7 +451,8 @@ mark {
   background-color: var(--sticky-menu-text-color);
   filter: brightness(125%); }
 
-code, tt {
+code,
+tt {
   color: var(--section-light-text-color);
   background-color: var(--section-uni-code-bg-color);
   border-radius: 3px;
@@ -468,7 +482,8 @@ pre {
   white-space: pre;
   overflow-x: scroll;
   width: 100%; }
-  pre code, pre tt {
+  pre code,
+  pre tt {
     color: inherit;
     background: transparent;
     font-size: inherit;
@@ -526,6 +541,10 @@ table {
 /* ==========================================================================
    8. Media Queries - Smaller than 1130px
    ========================================================================== */
+h1.blog-title {
+  font-family: "Corinthia", cursive;
+  /* font-size: 10rem; */ }
+
 @media only screen and (max-width: 1130px) {
   /* makes it a top sticky menu */
   .fixed-nav {
@@ -557,8 +576,7 @@ table {
     height: 100%;
     margin-bottom: 0rem; }
   .blog-title {
-    font-size: 4rem;
-    letter-spacing: -1px; }
+    font-family: "Corinthia", cursive; }
   .blog-description {
     font-size: 2.2rem;
     line-height: 1.5em; }
@@ -573,7 +591,7 @@ table {
   .post-template .post-header {
     padding: 40px 0; }
   h1 {
-    font-size: 4.8rem;
+    font-size: 10rem;
     text-indent: -2px; }
   h2 {
     font-size: 3.8rem; }
@@ -609,7 +627,7 @@ table {
   a.btn {
     margin-top: 10px; }
   .blog-title {
-    font-size: 3rem; }
+    font-size: 6rem; }
   .blog-description {
     font-size: 2.2rem; }
   h1,
